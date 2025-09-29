@@ -6,11 +6,12 @@ const HeroSection = () => {
       {/* Background Image */}
      
          <video 
-        className="hero-video w-full absolute inset-0 z-[-1] w-full h-full top-0 object-cover"
+        className="hero-video w-full absolute inset-0 z-[-1]  h-full top-0 object-cover"
         autoPlay 
         loop 
         muted 
         playsInline
+        poster="/bg.png"
         preload="auto"  // improves performance
       >
         <source src="/videos/hero-bg.mp4" type="video/mp4" />
