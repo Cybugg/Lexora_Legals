@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://Lexora Legal.dev/projects/84b42b7a-4724-4984-ac32-571257aa22ab
+**URL**: https://LexoraLegal.vercel.app/projects/84b42b7a-4724-4984-ac32-571257aa22ab
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lexora Legal**
 
-Simply visit the [Lexora Legal Project](https://Lexora Legal.dev/projects/84b42b7a-4724-4984-ac32-571257aa22ab) and start prompting.
+Simply visit the [Lexora Legal Project](https://LexoraLegal.vercel.app/projects/84b42b7a-4724-4984-ac32-571257aa22ab) and start prompting.
 
 Changes made via Lexora Legal will be committed automatically to this repo.
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lexora Legal](https://Lexora Legal.dev/projects/84b42b7a-4724-4984-ac32-571257aa22ab) and click on Share -> Publish.
+Simply open [Lexora Legal](https://LexoraLegal.vercel.app/projects/84b42b7a-4724-4984-ac32-571257aa22ab) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lexora Legal project?
 
