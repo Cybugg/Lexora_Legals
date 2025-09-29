@@ -1,6 +1,5 @@
 import heroImage from "@/assets/hero-image.jpg";
 import { useGSAP } from '@gsap/react'
-import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all'
 
 gsap.registerPlugin(ScrollTrigger);

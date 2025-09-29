@@ -1,13 +1,12 @@
 import heroImage from "@/assets/hero-image.jpg";
 import { useGSAP } from '@gsap/react'
-import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
   useGSAP(()=>{
-        gsap.to(".hero-header",{
+        gsa.to(".hero-header",{
             opacity:1,
             duration:1,
             ease:"power1.inOut",
