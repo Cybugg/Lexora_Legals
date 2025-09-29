@@ -14,13 +14,12 @@ const HeroSection = () => {
         gsap.to(".hero-text",{
             opacity:1,
             duration:1,
-            delay:0.5,
+            delay:0.5
             ease:"power1.inOut",
         })
    gsap.to(".hero-button",{
            opacity:1,
            duration:1,
-           delay:1,
             ease:"power2.inOut",
          })
     },[])

@@ -6,23 +6,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
   useGSAP(()=>{
-        gsap.to(".hero-header",{
-            opacity:1,
-            duration:1,
+        gsap.to("#building",{
+            width:"180%",
             ease:"power1.inOut",
         })
-        gsap.to(".hero-text",{
-            opacity:1,
-            duration:1,
-            delay:0.5,
-            ease:"power1.inOut",
-        })
-   gsap.to(".hero-button",{
+   gsap.to("#header3",{
            opacity:1,
            duration:1,
-           delay:1,
-            ease:"power2.inOut",
-         })
+            ease:"power1.inOut",
+          scrollTrigger:{
+        trigger:"#header3",
+         
+          start:"bottom 80%",
+          end:"top top",
+  }})
     },[])
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -46,10 +43,10 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
-        <h1 className="heading-hero mb-6 text-white hero-header opacity-0">
+        <h1 className="heading-hero mb-6 text-white">
          Lexora Legal
         </h1>
-        <p className="text-body max-w-3xl mx-auto text-white/90 leading-relaxed hero-text opacity-0">
+        <p className="text-body max-w-3xl mx-auto text-white/90 leading-relaxed">
           A law firm specializing in business law, dedicated to handling corporate crises and exceptional situations.
         </p>
         
@@ -63,7 +60,7 @@ const HeroSection = () => {
                 element.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="inline-flex items-center px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-elegant text-sm font-medium tracking-wide hero-button opacity-0"
+            className="inline-flex items-center px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-elegant text-sm font-medium tracking-wide"
           >
             Learn More
             <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

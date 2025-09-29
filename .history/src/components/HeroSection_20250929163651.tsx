@@ -20,7 +20,7 @@ const HeroSection = () => {
    gsap.to(".hero-button",{
            opacity:1,
            duration:1,
-           delay:1,
+           delay:1
             ease:"power2.inOut",
          })
     },[])

@@ -14,13 +14,11 @@ const HeroSection = () => {
         gsap.to(".hero-text",{
             opacity:1,
             duration:1,
-            delay:0.5,
             ease:"power1.inOut",
         })
    gsap.to(".hero-button",{
            opacity:1,
            duration:1,
-           delay:1,
             ease:"power2.inOut",
          })
     },[])
@@ -63,7 +61,7 @@ const HeroSection = () => {
                 element.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="inline-flex items-center px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-elegant text-sm font-medium tracking-wide hero-button opacity-0"
+            className="inline-flex items-center px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/20 transition-elegant text-sm font-medium tracking-wide hero- opacity-0"
           >
             Learn More
             <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
